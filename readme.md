@@ -9,7 +9,6 @@
 
 ## 项目说明
 
-- 仓库：[blog](http://git.imweb.io/imweb-teacher/blog)
 - 目标：为博客文章添加一些简单的样式。
 
 素材如下：
