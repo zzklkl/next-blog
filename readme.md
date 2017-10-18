@@ -15,7 +15,7 @@
 
 - 仓库中"blog.html"为已经实现好的 HTML 文件
 - 仓库中“blog.png”为要实现的效果，“blog-mark.png”为已经标记好的要求
-- 花的背景图地址为“http://coding.imweb.io/img/project/blog/bg.jpg”
+- 花的背景图地址为 http://coding.imweb.io/img/project/blog/bg.jpg 
 
 项目要求如下：
 
