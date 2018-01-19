@@ -1,0 +1,118 @@
+@charset "utf-8";
+body {
+    background: #fff url('http://coding.imweb.io/img/project/blog/bg.jpg') no-repeat fixed right bottom;
+}
+.page-detail {
+    width: 650px;
+    margin-left: 50px;
+}
+.page-detail .page-tt {
+    margin: 30px 0;
+    font-size: 36px;
+    line-height: 2;
+    color: #188eee;
+}
+.article h2 {
+    margin: 20px 0;
+    font-size: 24px;
+    line-height: 2;
+    background-image: linear-gradient(to right, #188eee 96px, #999 96px , #999);
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    background-size: 100% 1px;
+}
+.article ol {
+    counter-reset: section; 
+}
+.article li::before {
+    margin-right: 10px;
+    font-style: monospace;
+    color: #999;
+    counter-increment: section;           
+    content: "0" counter(section) "/"; 
+}
+.article p {
+    margin: 10px 0;
+    font-size: 16px;
+    line-height: 1.8;
+    text-indent: 2em;
+    color: #333;
+}
+.article img {
+    display: block;
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid #999;
+}
+.article .ps {
+    color: #999;
+}
+.article .ps a:hover {
+    color: #188eee;
+}
+.section-comment {
+    margin-top: 50px;
+    padding-top: 30px;
+    border-top: 3px solid #188eee;
+}
+.form .f-textarea {
+    display: block;
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    border-color: #bdbdbd;
+}
+.form .f-textarea:hover {
+    border-color: #ccc;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, .2);
+}
+.form .f-btn {
+    margin: 10px 0 20px;
+    padding: 5px;
+    background-color: #188eee;
+    color: #fff;
+    border-radius: 5px;
+}
+.form .f-btn:hover {
+    background-color: #147de2;
+}
+.comment-list .comment-item {
+    margin-bottom: 10px;
+    padding: 5px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    font-size: 12px;
+}
+.comment-list .comment-item:hover  {
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, .2);
+}
+.comment-list .comment-bd {
+    font-size: 14px;
+}
+.comment-list .comment-hd {
+    text-align: left;
+}
+.comment-list .comment-hd .item-time {
+    margin-right: 5px;
+    color: #666;
+}
+.comment-list .comment-hd .item-user {
+    color:#188eee;
+}
+.comment-list .comment-hd .item-user:hover {
+    color: #147de2;
+    cursor: pointer;
+}
+.comment-list .comment-ft {
+    text-align: right;
+    color: #188eee;
+}
+.comment-list .comment-ft .ft-oper {
+    padding: 5px;
+}
+.comment-list .comment-ft .ft-oper:hover {
+    color: #147de2;
+    cursor: pointer;
+}
+
+
